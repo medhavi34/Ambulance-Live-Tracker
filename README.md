@@ -12,7 +12,7 @@ Then create a .env file and create <b>PORT</b> and <b>MONGO_URI</b> Variable and
 Finally, to run the project 
 <pre> npm start </pre>
 
-## Accesses Different Servers
+## Links for Client and Driver sides 
 
 To access the driver's side, use the following link 
 <pre> http://localhost:{PORT}/driver</pre>
