@@ -1,0 +1,43 @@
+<form action = '/send-loc/api/drivers' method = 'POST' id='driver_registration'>
+    <div class="new_booking">
+        <div class="form-group">
+            <label for="Name" class='text-light'>Name</label>
+            <input type='text' name = 'name' value = "" placeholder ="Username">
+        </div>
+        
+        <div class="form-group">
+            <label for="Phone" class='text-light'>Phone</label>
+            <input type='tel' name = 'phone' value = "" placeholder ="9876543210">
+        </div>
+        
+        <div class="form-group">
+            <label for="Gender" class='text-light'>Gender</label>
+            <div class="radio inline">
+                <input type='radio' id ='radio-2' name = 'gender' value = "Male">
+                <label for='radio-2' class='radio-label'>Male</label>
+                <input type='radio' id ='radio-3' name = 'gender' value = "Female">
+                <label for='radio-3' class='radio-label'>Female</label>
+                <input type='radio' id ='radio-4' name = 'gender' value = "Other">
+                <label for='radio-4' class='radio-label'>Other</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Location" class='text-light'>Location</label>
+            <input type='text' name = 'location' value = "" placeholder ="Gurgaon">
+        </div>
+
+        <input type="hidden" name="longitude" value="">
+        <input type="hidden" name="latitude" value="">
+        <input type="hidden" name="status" value="">
+
+        <div class="form-group">
+            <a href="send-loc">
+                <button type="submit" class="btn text-dark book">
+                    Start Tracking!
+                </button>
+            </a>
+        </div>
+
+    </div>
+</form>

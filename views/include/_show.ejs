@@ -1,0 +1,19 @@
+<% for(var i = 0; i < drivers.length; i++) {%>
+<tr>
+    <td><%= i + 1%></td>
+    <td><%= drivers[i].name%></td>
+    <td><%= drivers[i].phone%></td>
+    <td><%= drivers[i].gender%></td>
+    <td><%= drivers[i].location%></td>
+    <td><%= drivers[i].longitude%></td>
+    <td><%= drivers[i].latitude%></td>
+    <td><%= drivers[i].status%></td>
+    <td>
+        <a href ="send-bookings" class = "btn border-shadow book">
+            <span class="text-gradient">
+                <i class="fas fa-check-circle"></i>
+            </span>
+        </a>
+    </td>
+</tr>
+<%}%>
